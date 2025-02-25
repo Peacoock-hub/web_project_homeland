@@ -51,6 +51,7 @@
     max-width: 460px;
     max-height: 460px;
     grid-area: image;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
   }
 
   .cities-main__description-container {
@@ -85,6 +86,7 @@
     grid-row-start: 3;
     grid-area: button;
     text-decoration: none;
+    box-shadow: 5px 5px 10px 0px #00000040;
   }
   
   .cities-main__buy-button:hover {
