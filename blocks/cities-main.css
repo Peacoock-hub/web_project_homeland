@@ -34,8 +34,8 @@
   .cities-main__subtitle-label {
     color: rgba(170, 170, 170, 1);
     font-size: 12px;
-    line-height: 15px;
-    letter-spacing: 12%;
+    line-height: 14.52px;
+    text-transform:uppercase;
   }
   
   .cities-main__subtitle {
@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #0278fe;
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     border-radius: 4px;
     font-weight: 600;
     line-height: 21.78;
