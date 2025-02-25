@@ -51,3 +51,42 @@
     max-height: 460px;
     grid-area: image;
   }
+
+  .cities-main__description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    grid-area: description;
+  }
+  
+  .cities-main__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 29.34px;
+    max-width: 484px;
+  }
+  
+  .cities-main__buy-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0278fe;
+    border-radius: 4px;
+    font-weight: 600;
+    line-height: 21.78;
+    color: #ffffff;
+    width: 100%;
+    height: 48px;
+    max-width: 355px;
+    border: none;
+    outline: none;
+    grid-row-start: 3;
+    grid-area: button;
+    text-decoration: none;
+  }
+  
+  .cities-main__buy-button:hover {
+    background-color: #0063d2;
+  }
+  
